@@ -15,4 +15,4 @@ import { BgcColorDirective } from './bgc-color.directive';
   providers: [],
   bootstrap: []
 })
-export class AppModule { }
+export class NgxColorModule { }
