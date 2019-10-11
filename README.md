@@ -1,7 +1,7 @@
 # ngx-color-directive
 
 
-Ngx color are directives that use the google material concept to create a single color palette.
+Ngx color is a directive that use the google material concept to create a single color palette.
 see http://mcg.mbitson.com/#!?mcgpalette0=%233f51b5
 
 Allows the dev to set an element background or text color just by adding a directive
