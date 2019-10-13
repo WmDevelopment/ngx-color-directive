@@ -1,6 +1,5 @@
 # ngx-color-directive
 
-
 Ngx color is a directive that use the google material concept to create a single color palette.
 see http://mcg.mbitson.com/#!?mcgpalette0=%233f51b5
 
@@ -10,40 +9,158 @@ Allows the dev to set an element background or text color just by adding a direc
 
 ## Text
 
-`<span textColor="red[2]" >Palmeiras doesn't has mundial</span><br/>`\
-`<span textColor="red[5]" >Palmeiras doesn't has mundial</span><br/>`\
-`<span textColor="red[7]" >Palmeiras doesn't has mundial</span><br/>`\
-`<span textColor="red[9]" >Palmeiras doesn't has mundial</span><br/>`\
-`<span textColor="red[10]" >Palmeiras doesn't has mundial</span><br/>`
+```html
+<div>
+  <h3 textColor="red[1]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="red[2]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="red[3]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="red[4]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="red[5]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="red[6]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="red[7]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="red[8]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="red[9]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="red[10]">This is a text colored by ngx-color-directive</h3>
+</div>
+<div>
+  <h3 textColor="blue[1]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="blue[2]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="blue[3]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="blue[4]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="blue[5]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="blue[6]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="blue[7]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="blue[8]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="blue[9]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="blue[10]">This is a text colored by ngx-color-directive</h3>
+</div>
+<div>
+  <h3 textColor="green[1]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="green[2]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="green[3]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="green[4]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="green[5]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="green[6]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="green[7]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="green[8]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="green[9]">This is a text colored by ngx-color-directive</h3>
+  <h3 textColor="green[10]">This is a text colored by ngx-color-directive</h3>
+</div>
+```
 
 ### Result:
-![alt text](https://i.imgur.com/rDyQQ5x.png)
 
+![Text](./projects/demo-app/src/assets/images/text.png)
 
 ## Background
 
-`<div bgColor="red[9]" ></div>`\
-`<div bgColor="red[8]" ></div>`\
-`<div bgColor="red[7]" ></div>`\
-`<div bgColor="red[6]" ></div>`\
-`<div bgColor="red[5]" ></div>`\
-`<div bgColor="red[4]" ></div>`\
-`<div bgColor="red[3]" ></div>`\
-`<div bgColor="red[2]" ></div>`\
-`<div bgColor="red[1]" ></div>`\
-`<div bgColor="red[0]" ></div>`
+```html
+<div>
+  <div class="div" bgColor="yellow[1]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="yellow[2]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="yellow[3]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="yellow[4]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="yellow[5]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="yellow[6]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="yellow[7]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="yellow[8]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="yellow[9]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="yellow[10]">
+    This is a div colored by ngx-color-directive
+  </div>
+</div>
+<div>
+  <div class="div" bgColor="pink[1]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="pink[2]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="pink[3]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="pink[4]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="pink[5]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="pink[6]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="pink[7]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="pink[8]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="pink[9]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="pink[10]">
+    This is a div colored by ngx-color-directive
+  </div>
+</div>
+<div>
+  <div class="div" bgColor="gray[1]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="gray[2]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="gray[3]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="gray[4]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="gray[5]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="gray[6]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="gray[7]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="gray[8]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="gray[9]">
+    This is a div colored by ngx-color-directive
+  </div>
+  <div class="div" bgColor="gray[10]">
+    This is a div colored by ngx-color-directive
+  </div>
+</div>
+```
 
 ### Result:
-![alt text](https://i.imgur.com/b6NmUZZ.png)
 
+![Background](./projects/demo-app/src/assets/images/bgc.png)
 
 ### the 5 number is the default color, without any saturation, or lightning changes
 
+## Supported colors:
 
-
-
-
-## Supported colors: 
 - White
 - Red
 - Orange
