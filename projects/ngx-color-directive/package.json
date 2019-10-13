@@ -1,6 +1,24 @@
 {
   "name": "ngx-color-directive",
-  "version": "0.0.1",
+  "version": "2.0.2",
+  "description": "Color palette in directives",
+  "author": {
+    "name": "Wagner Mattei",
+    "email": "wagner.mattei@gmail.com",
+    "url": "https://github.com/WmDevelopment"
+  },
+  "keywords": [
+    "color",
+    "angular",
+    "directives"
+  ],
+  "main": "dist/ng-color-directive/main.js",
+  "repository": {
+    "url": "https://github.com/WmDevelopment/ngx-color-directive"
+  },
+  "contributors": [
+    "Gabriel Diedrich"
+  ],
   "peerDependencies": {
     "@angular/common": "^8.0.3",
     "@angular/core": "^8.0.3"
